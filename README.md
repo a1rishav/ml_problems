@@ -27,5 +27,10 @@ The repository also contains details about the ml algorithms used, their importa
       - Type : dimensionalty reudciton, clustering
       - Use : visulaize high dimentional data
       - References :
-        - https://www.youtube.com/watch?v=FgakZw6K1QQ
-        - 
+        - what :
+          - https://www.youtube.com/watch?v=FgakZw6K1QQ
+          - https://medium.com/analytics-vidhya/a-beginners-guide-for-dimensionality-reduction-using-principle-component-analysis-pca-c4c515ae49c1
+          - https://medium.com/analytics-vidhya/how-does-pca-really-work-e53f640e5323
+          - (with maths) : https://medium.com/analytics-vidhya/understanding-principle-component-analysis-pca-step-by-step-e7a4bb4031d9
+        - PCA vs tSNE with code : https://medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d
+        
