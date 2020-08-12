@@ -13,6 +13,7 @@ The repository also contains details about the ml algorithms used, their importa
   - tSNE
       - Type : dimensionalty reudciton, clustering
       - Use : visulaize high dimentional data
+      - Visualization : http://projector.tensorflow.org/
       - Properties :
         - more computaionally expensive than PCA
         - better to be used as exploration than clustering
@@ -26,6 +27,7 @@ The repository also contains details about the ml algorithms used, their importa
   - PCA
       - Type : dimensionalty reudciton, clustering
       - Use : visulaize high dimentional data
+      - Visualization : http://projector.tensorflow.org/
       - References :
         - what :
           - https://www.youtube.com/watch?v=FgakZw6K1QQ
