@@ -44,6 +44,7 @@ plt.savefig(os.path.join(props.data_dir, 'single_image.png'), format='png')
 # plt.imshow(single_image, cmap='gray')
 # plt.show()
 
+# using tsne
 tsne = manifold.TSNE(n_components=2, random_state=42)
 transformed_data = tsne.fit_transform(pixel_values[:3000, :])
 # pixel_values[:3000, :].shape --> (3000, 784)
@@ -54,6 +55,3 @@ tsne_df.loc[:, "targets"] = tsne_df.targets.astype(int)
 grid = sns.FacetGrid(tsne_df, hue="targets", size = 8)
 grid.map(plt.scatter, "x", "y").add_legend()
 plt.savefig(os.path.join(props.data_dir, 'mnist_clsuters.png'), format='png')
-
-
-
