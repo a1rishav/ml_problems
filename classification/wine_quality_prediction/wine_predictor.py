@@ -19,10 +19,12 @@ Target : quality
 uniqe_targets = df['quality'].unique().tolist().sort()
 
 # historgram of wine qualities
-# df.hist('quality')
+df.hist('quality')
 # plt.show()
+plt.savefig(os.path.join(props.data_dir, 'wine_quality_hist.png'), format='png')
 
 # see the affect of columns
 
 MlUtils.corrplot(df)
+plt.savefig(os.path.join(props.data_dir, 'wine_params_corr.png'), format='png')
 print()
