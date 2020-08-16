@@ -35,4 +35,22 @@ The repository also contains details about the ml algorithms used, their importa
           - https://medium.com/analytics-vidhya/how-does-pca-really-work-e53f640e5323
           - (with maths) : https://medium.com/analytics-vidhya/understanding-principle-component-analysis-pca-step-by-step-e7a4bb4031d9
         - PCA vs tSNE with code : https://medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d
+  
+- Decision Tree : regression or classification
+	- Gini Score : 1 - (p +ve) ^ 2 - (p -ve) ^ 2
+		- Yes / No :
+			- From table to decision tree
+			- Calculate gini score for all independent parameters
+			- Parameter with lowest gini score is the root
+			- If the node itself has the lowest gini impurity score, this node becomes the leaf node
+			- If separating the data results in improvement, then pick the separation with the lowest impurity value
+
+		- Numeric Data :
+			- example weight, sort weights 
+			- calculate adjacent avg
+			- Separate based on Gini Score
+
+	- Reference : https://www.youtube.com/watch?v=7VeUPuFGJHk&t=10s
+
+        
         
