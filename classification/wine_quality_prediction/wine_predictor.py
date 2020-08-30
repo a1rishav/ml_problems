@@ -82,7 +82,7 @@ train_accuracies = [0.5]
 test_accuracies = [0.5]
 
 # test different depth of decision tres
-
+# hold out cross validation
 for depth in range(1, 30):
     # train
     classifier = tree.DecisionTreeClassifier(max_depth=depth)
@@ -108,3 +108,8 @@ plt.xlabel("max_depth", size=20)
 plt.xlabel("accracy", size=20)
 # plt.show()
 plt.savefig(os.path.join(props.data_dir, 'decision_tree_accuracy_vs_depth.png'), format='png')
+'''
+observation :
+Even if the depth is set to 100, the test accuracy doesn't go down, had it been neural network
+the test accuracy would have increased 
+'''
