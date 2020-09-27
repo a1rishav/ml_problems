@@ -11,7 +11,7 @@
   - PCA
   - t-SNE
 
-### Cross Validation : ensures that the model fits and does not overfit
+### Cross Validation : ensures that the model fits and does not overfit, used so that validation data is representative of train data
 - k fold cross validation
   - can be used with all kind of datasets
   - splits any dataest into k folds
