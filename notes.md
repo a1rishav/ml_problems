@@ -4,7 +4,7 @@
 - Regression : predicting a value
 - Classification : predicting a category
 
-### Un Supervised : does not have any target
+### UnSupervised : does not have any target
 - Example : Credit Fraud detection 
 - important appproaches :
   - clustering
